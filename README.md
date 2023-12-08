@@ -2,6 +2,13 @@
 
 Python script for an Alfred workflow to search and open Firefox bookmarks.
 
+## What it does
+
+The script searches for the automated backup files of bookmarks with the `.jsonlz4` extention in the profile folder of the Firefox application.
+(cf. <https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data>)
+
+Then, it decompresses the latest backup file and parses the data to display them in the Alfred UI.
+
 ## Installation
 
 ### Prerequisites
